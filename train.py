@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import json
 
 train_dir='train'
 validation_dir='validation'
@@ -45,4 +46,6 @@ model=Sequential([
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 history=model.fit(train_generator, epochs=10, validation_data=validation_generator, verbose=1)
+with open("class_labels.json","w") as f:
+    json.dump(train_generator.class_indices, f)
 model.save('vegdetsys.h5')
