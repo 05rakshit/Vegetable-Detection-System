@@ -1,38 +1,1869 @@
 {
-    "apple": [],
-    "banana": [],
-    "beetroot": [],
-    "bell pepper": [],
-    "cabbage": [],
-    "capsicum": [],
-    "carrot": [],
-    "cauliflower": [],
-    "chilli pepper": [],
-    "corn": [],
-    "cucumber": [],
-    "eggplant": [],
-    "garlic": [],
-    "ginger": [],
-    "grapes": [],
-    "jalepeno": [],
-    "kiwi": [],
-    "lemon": [],
-    "lettuce": [],
-    "mango": [],
-    "onion": [],
-    "orange": [],
-    "paprika": [],
-    "pear": [],
-    "peas": [],
-    "pineapple": [],
-    "pomegranate": [],
-    "potato": [],
-    "raddish": [],
-    "soy beans": [],
-    "spinach": [],
-    "sweetcorn": [],
-    "sweetpotato": [],
-    "tomato": [],
-    "turnip": [],
-    "watermelon": []
+    "apple": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "apple",
+            "confidence": "33.12%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "apple",
+            "confidence": "33.12%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "apple",
+            "confidence": "64.35%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "55.74%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "mango",
+            "confidence": "19.27%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "26.55%"
+        },
+        {
+            "image": "Image_6.JPG",
+            "predicted_class": "pomegranate",
+            "confidence": "32.95%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "tomato",
+            "confidence": "20.65%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "tomato",
+            "confidence": "30.82%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "6.88%"
+        }
+    ],
+    "banana": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "banana",
+            "confidence": "37.67%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "banana",
+            "confidence": "37.67%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "orange",
+            "confidence": "20.17%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "banana",
+            "confidence": "33.28%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "banana",
+            "confidence": "35.86%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "banana",
+            "confidence": "36.36%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "banana",
+            "confidence": "32.58%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "29.61%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "22.98%"
+        }
+    ],
+    "beetroot": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "38.90%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "33.70%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "72.91%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "67.72%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "36.67%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "25.44%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "47.11%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "20.15%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "33.97%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "58.92%"
+        }
+    ],
+    "bell pepper": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "20.31%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "capsicum",
+            "confidence": "14.62%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "capsicum",
+            "confidence": "14.62%"
+        },
+        {
+            "image": "Image_3.jpeg",
+            "predicted_class": "bell pepper",
+            "confidence": "23.85%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "capsicum",
+            "confidence": "25.51%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "14.55%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "23.70%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "26.20%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "25.95%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "20.31%"
+        }
+    ],
+    "cabbage": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "20.59%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "20.59%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "15.13%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "28.59%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "15.27%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "spinach",
+            "confidence": "23.14%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "25.67%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "19.78%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "26.45%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "28.64%"
+        }
+    ],
+    "capsicum": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "26.41%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "26.41%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "26.16%"
+        },
+        {
+            "image": "Image_3.JPG",
+            "predicted_class": "paprika",
+            "confidence": "26.11%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "21.92%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "18.06%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "26.25%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "11.12%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "18.18%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "20.17%"
+        }
+    ],
+    "carrot": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "carrot",
+            "confidence": "88.32%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "carrot",
+            "confidence": "88.32%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "carrot",
+            "confidence": "83.43%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "bell pepper",
+            "confidence": "12.10%"
+        },
+        {
+            "image": "Image_4.png",
+            "predicted_class": "carrot",
+            "confidence": "73.68%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "carrot",
+            "confidence": "88.69%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "carrot",
+            "confidence": "70.11%"
+        },
+        {
+            "image": "Image_7.JPG",
+            "predicted_class": "carrot",
+            "confidence": "75.55%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "24.45%"
+        },
+        {
+            "image": "Image_9.jpeg",
+            "predicted_class": "carrot",
+            "confidence": "64.04%"
+        }
+    ],
+    "cauliflower": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "16.37%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "43.73%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "cauliflower",
+            "confidence": "49.59%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "cauliflower",
+            "confidence": "41.82%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "cauliflower",
+            "confidence": "24.64%"
+        },
+        {
+            "image": "Image_5.JPG",
+            "predicted_class": "cauliflower",
+            "confidence": "21.43%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "garlic",
+            "confidence": "23.51%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "cauliflower",
+            "confidence": "50.19%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "12.80%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "cauliflower",
+            "confidence": "22.11%"
+        }
+    ],
+    "chilli pepper": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "mango",
+            "confidence": "22.47%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "mango",
+            "confidence": "22.47%"
+        },
+        {
+            "image": "Image_2.png",
+            "predicted_class": "pomegranate",
+            "confidence": "32.32%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "capsicum",
+            "confidence": "13.97%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "30.80%"
+        },
+        {
+            "image": "Image_5.png",
+            "predicted_class": "pomegranate",
+            "confidence": "78.86%"
+        },
+        {
+            "image": "Image_6.jpeg",
+            "predicted_class": "watermelon",
+            "confidence": "20.33%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "11.90%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "9.04%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "33.76%"
+        }
+    ],
+    "corn": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "54.09%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "turnip",
+            "confidence": "16.78%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "36.85%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "50.97%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "pear",
+            "confidence": "29.39%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "corn",
+            "confidence": "35.97%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "46.43%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "corn",
+            "confidence": "44.68%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "25.83%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "lemon",
+            "confidence": "20.80%"
+        }
+    ],
+    "cucumber": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "spinach",
+            "confidence": "19.05%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "spinach",
+            "confidence": "19.05%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "29.26%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "29.72%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "spinach",
+            "confidence": "18.36%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "13.37%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "19.54%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "18.36%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "spinach",
+            "confidence": "19.00%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "cabbage",
+            "confidence": "21.74%"
+        }
+    ],
+    "eggplant": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "eggplant",
+            "confidence": "33.10%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "eggplant",
+            "confidence": "38.70%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "eggplant",
+            "confidence": "31.01%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "grapes",
+            "confidence": "66.14%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "turnip",
+            "confidence": "54.98%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "eggplant",
+            "confidence": "99.77%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "turnip",
+            "confidence": "84.92%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "turnip",
+            "confidence": "36.15%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "grapes",
+            "confidence": "66.25%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "13.86%"
+        }
+    ],
+    "garlic": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "garlic",
+            "confidence": "60.96%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "garlic",
+            "confidence": "48.65%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "garlic",
+            "confidence": "68.33%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "garlic",
+            "confidence": "58.17%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "garlic",
+            "confidence": "51.42%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "garlic",
+            "confidence": "65.18%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "garlic",
+            "confidence": "50.45%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "garlic",
+            "confidence": "66.91%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "garlic",
+            "confidence": "48.61%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "garlic",
+            "confidence": "50.55%"
+        }
+    ],
+    "ginger": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "potato",
+            "confidence": "44.64%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "potato",
+            "confidence": "43.51%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "potato",
+            "confidence": "43.51%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "ginger",
+            "confidence": "40.15%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "ginger",
+            "confidence": "38.28%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "potato",
+            "confidence": "43.78%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "81.32%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "63.64%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "85.22%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "orange",
+            "confidence": "27.72%"
+        }
+    ],
+    "grapes": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "42.50%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "grapes",
+            "confidence": "83.73%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "grapes",
+            "confidence": "19.79%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "grapes",
+            "confidence": "94.19%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "grapes",
+            "confidence": "91.91%"
+        },
+        {
+            "image": "Image_5.jpeg",
+            "predicted_class": "pear",
+            "confidence": "44.46%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "53.88%"
+        },
+        {
+            "image": "Image_7.JPG",
+            "predicted_class": "grapes",
+            "confidence": "51.87%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "grapes",
+            "confidence": "90.16%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "29.02%"
+        }
+    ],
+    "jalepeno": [
+        {
+            "image": "Image_1.jpeg",
+            "predicted_class": "lettuce",
+            "confidence": "34.50%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "27.77%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "jalepeno",
+            "confidence": "11.62%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "spinach",
+            "confidence": "18.85%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "30.25%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "26.31%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "30.61%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "29.48%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "25.03%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "jalepeno",
+            "confidence": "14.79%"
+        }
+    ],
+    "kiwi": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "35.92%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "42.71%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "16.64%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "19.98%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "48.75%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "22.88%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "pear",
+            "confidence": "30.72%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "13.07%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "cucumber",
+            "confidence": "14.34%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "43.16%"
+        }
+    ],
+    "lemon": [
+        {
+            "image": "Image_1.png",
+            "predicted_class": "lemon",
+            "confidence": "34.65%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "lemon",
+            "confidence": "10.87%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lemon",
+            "confidence": "38.87%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "lemon",
+            "confidence": "23.86%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "29.32%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "38.64%"
+        },
+        {
+            "image": "Image_6.png",
+            "predicted_class": "lemon",
+            "confidence": "48.42%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "lemon",
+            "confidence": "32.64%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "lemon",
+            "confidence": "39.13%"
+        },
+        {
+            "image": "Image_9.png",
+            "predicted_class": "sweetcorn",
+            "confidence": "33.36%"
+        }
+    ],
+    "lettuce": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "spinach",
+            "confidence": "25.88%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "49.45%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "29.56%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "62.81%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "34.80%"
+        },
+        {
+            "image": "Image_5.jpeg",
+            "predicted_class": "lettuce",
+            "confidence": "65.30%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "29.39%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "52.32%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "33.84%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "45.36%"
+        }
+    ],
+    "mango": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "mango",
+            "confidence": "18.27%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "mango",
+            "confidence": "37.29%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "mango",
+            "confidence": "27.50%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "mango",
+            "confidence": "26.32%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "mango",
+            "confidence": "29.47%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "lemon",
+            "confidence": "27.67%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "capsicum",
+            "confidence": "32.07%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "mango",
+            "confidence": "56.08%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "carrot",
+            "confidence": "23.06%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "lemon",
+            "confidence": "31.50%"
+        }
+    ],
+    "onion": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "onion",
+            "confidence": "71.88%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "onion",
+            "confidence": "71.88%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "onion",
+            "confidence": "50.20%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "32.39%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "onion",
+            "confidence": "29.64%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "onion",
+            "confidence": "42.96%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "onion",
+            "confidence": "57.21%"
+        },
+        {
+            "image": "Image_7.png",
+            "predicted_class": "sweetpotato",
+            "confidence": "38.86%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "potato",
+            "confidence": "21.50%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "potato",
+            "confidence": "26.48%"
+        }
+    ],
+    "orange": [
+        {
+            "image": "Image_1.png",
+            "predicted_class": "mango",
+            "confidence": "32.43%"
+        },
+        {
+            "image": "Image_10.png",
+            "predicted_class": "mango",
+            "confidence": "32.43%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "mango",
+            "confidence": "40.01%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "mango",
+            "confidence": "43.51%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "lemon",
+            "confidence": "27.35%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "orange",
+            "confidence": "38.85%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "27.59%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "mango",
+            "confidence": "23.01%"
+        },
+        {
+            "image": "Image_8.jpeg",
+            "predicted_class": "orange",
+            "confidence": "42.28%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "lemon",
+            "confidence": "28.72%"
+        }
+    ],
+    "paprika": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "paprika",
+            "confidence": "47.29%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "paprika",
+            "confidence": "47.29%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "paprika",
+            "confidence": "27.63%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "paprika",
+            "confidence": "45.03%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "21.73%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "30.41%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "tomato",
+            "confidence": "36.82%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "paprika",
+            "confidence": "25.33%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "paprika",
+            "confidence": "39.05%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "chilli pepper",
+            "confidence": "18.45%"
+        }
+    ],
+    "pear": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "18.56%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "pear",
+            "confidence": "77.09%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "18.07%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "pear",
+            "confidence": "77.09%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "pear",
+            "confidence": "44.41%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "32.85%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "corn",
+            "confidence": "15.02%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "pear",
+            "confidence": "46.37%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "18.07%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "18.56%"
+        }
+    ],
+    "peas": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "21.16%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "36.89%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "20.74%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "25.68%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "40.17%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "37.70%"
+        },
+        {
+            "image": "Image_6.png",
+            "predicted_class": "lettuce",
+            "confidence": "33.53%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "19.60%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "34.70%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "spinach",
+            "confidence": "26.00%"
+        }
+    ],
+    "pineapple": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "68.86%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "42.88%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "18.53%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "52.40%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "53.02%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "83.33%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "27.40%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "77.59%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "93.17%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "60.76%"
+        }
+    ],
+    "pomegranate": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "91.01%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "91.01%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "58.56%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "93.43%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "tomato",
+            "confidence": "12.76%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "91.30%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "92.23%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "53.48%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "82.97%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "pomegranate",
+            "confidence": "85.06%"
+        }
+    ],
+    "potato": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "26.68%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "potato",
+            "confidence": "60.74%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "30.80%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "45.42%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "potato",
+            "confidence": "69.16%"
+        },
+        {
+            "image": "Image_5.JPG",
+            "predicted_class": "potato",
+            "confidence": "34.44%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "potato",
+            "confidence": "50.54%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "mango",
+            "confidence": "33.22%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "ginger",
+            "confidence": "50.41%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "onion",
+            "confidence": "36.37%"
+        }
+    ],
+    "raddish": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "raddish",
+            "confidence": "45.70%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "raddish",
+            "confidence": "45.70%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "raddish",
+            "confidence": "45.03%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "turnip",
+            "confidence": "35.30%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "turnip",
+            "confidence": "47.84%"
+        },
+        {
+            "image": "Image_5.png",
+            "predicted_class": "chilli pepper",
+            "confidence": "23.98%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "turnip",
+            "confidence": "28.66%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "26.77%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "turnip",
+            "confidence": "65.20%"
+        },
+        {
+            "image": "Image_9.jpeg",
+            "predicted_class": "turnip",
+            "confidence": "52.16%"
+        }
+    ],
+    "soy beans": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "99.36%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "pineapple",
+            "confidence": "38.90%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "82.19%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "91.45%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "81.72%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "99.82%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "72.30%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "84.65%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "81.79%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "93.87%"
+        }
+    ],
+    "spinach": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "21.27%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "spinach",
+            "confidence": "25.65%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "32.44%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "35.72%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "kiwi",
+            "confidence": "21.72%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "42.36%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "35.83%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "37.64%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "spinach",
+            "confidence": "22.91%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "lettuce",
+            "confidence": "25.07%"
+        }
+    ],
+    "sweetcorn": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "corn",
+            "confidence": "27.51%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "24.47%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "33.41%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "55.21%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "47.99%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "50.97%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "47.89%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "48.92%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "55.73%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "sweetcorn",
+            "confidence": "54.09%"
+        }
+    ],
+    "sweetpotato": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "61.89%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "37.84%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "beetroot",
+            "confidence": "37.84%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "58.32%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "36.49%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "orange",
+            "confidence": "31.08%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "38.47%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "68.40%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "36.49%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "sweetpotato",
+            "confidence": "61.89%"
+        }
+    ],
+    "tomato": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "tomato",
+            "confidence": "56.85%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "tomato",
+            "confidence": "56.85%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "tomato",
+            "confidence": "42.05%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "32.68%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "tomato",
+            "confidence": "44.48%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "tomato",
+            "confidence": "26.99%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "tomato",
+            "confidence": "24.57%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "tomato",
+            "confidence": "48.94%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "apple",
+            "confidence": "28.02%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "tomato",
+            "confidence": "18.21%"
+        }
+    ],
+    "turnip": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "turnip",
+            "confidence": "30.76%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "turnip",
+            "confidence": "30.76%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "turnip",
+            "confidence": "57.98%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "turnip",
+            "confidence": "81.06%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "turnip",
+            "confidence": "64.72%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "turnip",
+            "confidence": "57.85%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "turnip",
+            "confidence": "66.37%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "raddish",
+            "confidence": "29.45%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "turnip",
+            "confidence": "71.21%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "turnip",
+            "confidence": "22.17%"
+        }
+    ],
+    "watermelon": [
+        {
+            "image": "Image_1.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "14.82%"
+        },
+        {
+            "image": "Image_10.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "20.65%"
+        },
+        {
+            "image": "Image_2.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "31.35%"
+        },
+        {
+            "image": "Image_3.jpg",
+            "predicted_class": "soy beans",
+            "confidence": "14.77%"
+        },
+        {
+            "image": "Image_4.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "16.19%"
+        },
+        {
+            "image": "Image_5.jpg",
+            "predicted_class": "apple",
+            "confidence": "22.49%"
+        },
+        {
+            "image": "Image_6.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "15.54%"
+        },
+        {
+            "image": "Image_7.jpg",
+            "predicted_class": "tomato",
+            "confidence": "34.04%"
+        },
+        {
+            "image": "Image_8.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "36.53%"
+        },
+        {
+            "image": "Image_9.jpg",
+            "predicted_class": "watermelon",
+            "confidence": "32.47%"
+        }
+    ]
 }

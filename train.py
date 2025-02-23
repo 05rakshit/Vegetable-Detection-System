@@ -2,12 +2,22 @@ import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from PIL import Image
+import numpy as np
 import json
+
+# def convert_to_rgb(image):
+#     if isinstance(image, np.ndarray):  
+#         image=Image.fromarray(image)
+#     if image.mode in ("RGBA", "P"):  
+#         image = image.convert("RGB")
+#     return np.array(image)
 
 train_dir='train'
 validation_dir='validation'
 train_datagen = ImageDataGenerator(
     rescale=1.0/255,
+    # preprocessing_function=convert_to_rgb,
     rotation_range=20,
     width_shift_range=0.2,
     height_shift_range=0.2,
@@ -16,7 +26,10 @@ train_datagen = ImageDataGenerator(
     horizontal_flip=True,
     fill_mode='nearest'
 )
-validation_datagen=ImageDataGenerator(rescale=1.0/255)
+validation_datagen=ImageDataGenerator(
+    rescale=1.0/255,
+    # preprocessing_function=convert_to_rgb
+    )
 train_generator= train_datagen.flow_from_directory(
     train_dir,
     target_size=(128,128),
@@ -46,6 +59,7 @@ model=Sequential([
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 history=model.fit(train_generator, epochs=10, validation_data=validation_generator, verbose=1)
+class_labels_reversed = {str(value): key for key, value in train_generator.class_indices.items()}
 with open("class_labels.json","w") as f:
-    json.dump(train_generator.class_indices, f)
+    json.dump(class_labels_reversed, f,indent=4)
 model.save('vegdetsys.h5')
