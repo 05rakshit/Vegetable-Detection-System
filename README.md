@@ -1,0 +1,2 @@
+# Fruits/Vegetable Detection System
+<p>This is a fruits/vegetable detection system that is used to recognize the fruit or vegetable in front of you.<br>This can be an effective tool for children.<br>It will help them learn about the fruits and vegetables.<br>This project has 36 categories all given in the datasets provided.<br>The dataset was taken from kaggle.<br>It contains the code for training and validation of the categories.<br>After running the training code it gives the model which can be used repeatedly and need not run it again.<p>
