@@ -14,14 +14,15 @@ with open("class_labels.json","r") as f:
 def home_page():
     return render_template('index.html')
 
-@app.route("/predict",method=["POST","GET"])
+@app.route("/predict",methods=["POST","GET"])
 def predict():
-    file=request.files['image']
-    img=Image.open(file).convert("RGB").resize((128,128))
-    img_array=np.expand_dims(image.img_to_array(img),axis=0)/255.0
+    if request.method == "POST":
+        file=request.files['image']
+        img=Image.open(file).convert("RGB").resize((128,128))
+        img_array=np.expand_dims(image.img_to_array(img),axis=0)/255.0
 
-    prediction=model.predict(img_array)
-    predicted_class=class_labels[str(np.argmax(prediction))]
-    confidence=np.max(prediction)*100
-    return render_template('result.html',vegetable=predicted_class,confidence=confidence)
-
+        prediction=model.predict(img_array)
+        predicted_class=class_labels[str(np.argmax(prediction))]
+        confidence=np.max(prediction)*100
+        return render_template('result.html',vegetable=predicted_class,confidence=confidence)
+    
