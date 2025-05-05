@@ -6,13 +6,6 @@ from PIL import Image
 import numpy as np
 import json
 
-# def convert_to_rgb(image):
-#     if isinstance(image, np.ndarray):  
-#         image=Image.fromarray(image)
-#     if image.mode in ("RGBA", "P"):  
-#         image = image.convert("RGB")
-#     return np.array(image)
-
 train_dir='train'
 validation_dir='validation'
 train_datagen = ImageDataGenerator(
@@ -63,3 +56,11 @@ class_labels_reversed = {str(value): key for key, value in train_generator.class
 with open("class_labels.json","w") as f:
     json.dump(class_labels_reversed, f,indent=4)
 model.save('vegdetsys.h5')
+
+
+# def convert_to_rgb(image):
+#     if isinstance(image, np.ndarray):  
+#         image=Image.fromarray(image)
+#     if image.mode in ("RGBA", "P"):  
+#         image = image.convert("RGB")
+#     return np.array(image)

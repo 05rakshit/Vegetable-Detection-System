@@ -25,4 +25,3 @@ def predict():
         predicted_class=class_labels[str(np.argmax(prediction))]
         confidence=np.max(prediction)*100
         return render_template('result.html',vegetable=predicted_class,confidence=confidence)
-    

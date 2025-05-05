@@ -4,6 +4,8 @@ import tensorflow as tf
 import json
 from tensorflow.keras.preprocessing import image
 from PIL import Image
+
+
 model=tf.keras.models.load_model('vegdetsys.h5')
 with open("class_labels.json","r") as f:
     class_labels=json.load(f)
